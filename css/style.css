@@ -1,3 +1,15 @@
 .ms_bg_gray{
     background-color: grey;
 }
+
+.ms_rounded_10{
+    border-radius: 10px;
+}
+
+.ms_rounded_20{
+    border-radius: 20px;
+}
+
+.ms_rounded_30{
+    border-radius: 30px;
+}

@@ -9,8 +9,9 @@ document.getElementById("surname").innerHTML = cognome;
 const colorePref = prompt("Inserisci il tuo colore preferito");
 document.getElementById("fav-color").innerHTML = colorePref;
 
-if (nome == "" || cognome == "" || colorePref == "") {
-    document.getElementById("pwd").innerHTML = "ATTENZIONE: non hai inserito tutti i dati correttamente";
+if (nome == "" || nome == null || cognome == "" || cognome == null || colorePref == "" || colorePref == null) {
+    document.getElementById("pwd-title").innerHTML = "ATTENZIONE";
+    document.getElementById("pwd").innerHTML = "non hai inserito tutti i dati correttamente";
 }
 else {
     document.getElementById("pwd-title").innerHTML = "La tua nuova password è:";
